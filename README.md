@@ -1,12 +1,16 @@
-# shell_script_project :- This Bash script is designed to list users who have read access to a specific GitHub repository. Below is a use case scenario and the steps to run the script:
+#  shell_script_project
+ 
+## This Bash script is designed to list users who have read access to a specific GitHub repository. Below is a use case scenario and the steps to run the script:
 
-## Use Case:
+## Use Case
+
 Suppose you are managing a GitHub repository, and you need to know which users have been granted read access to it. This information might be crucial for monitoring repository access or managing collaboration permissions.
 
 ## Steps to Run the Script:
+
 1. **Set Up GitHub Personal Access Token:**
    - foe running the script,we need to generate a `personal access token` from GitHub.We can create GItHub account settings, selecting "Developer settings," --> "Personal access tokens," and generat a new token with required permissions (at least `repo` scope is required for the script).
-   
+ 
 2. **Set Up Script Variables:**
    - Open the script folder (`github-api`) in a text editor.
    - Run the command  (`chmod 770 listing-user-in-project.sh`).
